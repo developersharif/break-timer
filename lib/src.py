@@ -3,6 +3,7 @@ from tkinter.simpledialog import askinteger
 from tkinter import *
 from PIL import ImageTk,Image 
 import time
+from playsound import playsound
 class gui():
      def __init__(self):
         self.root = Tk()
@@ -28,7 +29,9 @@ class gui():
         bg_canv.create_image(0,0,anchor=NW,image=image)
         bg_canv.pack()
         self.root.protocol("WM_DELETE_WINDOW", quit)
+        playsound('lib/assets/audio/bell.mp3')
         self.root.mainloop()
+        
         
      def quit():
          if messagebox.askokcancel("Quit", "Do you want to quit?"):

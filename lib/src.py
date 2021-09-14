@@ -7,13 +7,14 @@ class gui():
         global root; 
         root.overrideredirect(True)
         root.overrideredirect(False)
+        root.title("Break Timer")
         root.attributes('-fullscreen',True)
         root.configure(bg='limegreen')
-        button = tk.Button(root, 
-                          text = 'Click and Quit', 
-                          command=quit).pack()
         Label = tk.Label(root, 
-                          text = 'Relax sharif....').pack() 
+                          text = 'You Have To Break Some Time').pack(pady=10) 
+        button = tk.Button(root, 
+                  text = 'Quit', 
+                  command=quit).pack(pady=8)
         root.mainloop()
         
      def getUptime():

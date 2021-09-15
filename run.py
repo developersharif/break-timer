@@ -2,6 +2,7 @@ from lib.src import *
 import schedule
 import os
 import time
+import webbrowser
 #default value...
 Hours = 2
 Minutes = 10
@@ -57,7 +58,8 @@ def ask_time():
      Hours = askinteger("Input", "Break frequency: Set Hours")
      Minutes = askinteger("Input", "Break frequency: Set Minutes")
      
-     
+def callback():
+    webbrowser.open_new("https://facebook.com/developersharif")    
 root = tk.Tk()
 root.title("Break Timer")
 root.geometry("500x500")
@@ -73,6 +75,9 @@ tk.Button(root,
 tk.Button(root, 
                   text = 'Exit', bg="red",fg="white",
                   command=close).pack(pady=8)
+tk.Button(root, 
+                  text = 'Developed By Sharif', bg="white",fg="blue",borderwidth=0,highlightthickness = 0,
+                  command=callback).pack(pady=8)
 root.iconify()
 e = Home_page(root)
 e.pack(fill=BOTH, expand=YES)
@@ -86,8 +91,8 @@ def job():
     os.system("python3 main.py")
  
    
-print(wait)
-schedule.every(2).seconds.do(job)
+print("Done wait for alerm.")
+schedule.every(wait).seconds.do(job)
 
 while True:
     schedule.run_pending()

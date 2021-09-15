@@ -3,3 +3,4 @@ PIL
 time
 schedule
 playsound
+webbrowser

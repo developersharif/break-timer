@@ -1,6 +1,6 @@
 # break-timer
 
-A simply python script which reminds you to take a break while working.
+A Simple python script that reminds you to take a break while working.
 
 ## Screenshots
 
@@ -10,7 +10,7 @@ A simply python script which reminds you to take a break while working.
 ## 🔗 Download
 
 Linux: [Download](https://github.com/developersharif/break-timer/releases/download/time_breaker/Linux-Ubuntu.zip) \
-Windows:[Download](https://github.com/developersharif/break-timer/releases/download/untagged-ba6b7b947672e4238da8/Time.Breaker-1.0-win32.msi)
+Windows:[Download ](https://github.com/developersharif/break-timer/releases/download/break-timer-win/Time.Breaker-1.0-win.msi)
 
 ## Author
 

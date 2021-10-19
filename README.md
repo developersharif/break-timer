@@ -10,7 +10,7 @@ A simply python script which reminds you to take a break while working.
 ## 🔗 Download
 
 Linux: [Download](https://github.com/developersharif/break-timer/releases/download/time_breaker/Linux-Ubuntu.zip) \
-Windows: Coming Soon
+Windows:[Download](https://github.com/developersharif/break-timer/releases/download/untagged-ba6b7b947672e4238da8/Time.Breaker-1.0-win32.msi)
 
 ## Author
 
